@@ -1,0 +1,11 @@
+{
+  "name": "@fw7/hubble-analytics",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/backend/*",
+    "packages/frontend/*",
+    "packages/shared/*"
+  ]
+}
