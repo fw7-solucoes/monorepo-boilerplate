@@ -25,7 +25,7 @@ const config = {
             presets: [
               '@babel/preset-env',
               '@babel/preset-react',
-              '@babel/preset-typescript',
+              '@babel/preset-typescript'
             ]
           }
         }
@@ -33,7 +33,7 @@ const config = {
 
       {
         test: /\.css$/i,
-        use: ["style-loader", "css-loader"],
+        use: ['style-loader', 'css-loader']
       },
 
       {
@@ -67,16 +67,16 @@ const config = {
     }),
 
     new HtmlWebpackPlugin({
-      template: "public/index.html",
-      filename: "index.html",
-      inject: "body"
+      template: 'public/index.html',
+      filename: 'index.html',
+      inject: 'body'
     }),
 
     new webpack.HotModuleReplacementPlugin()
   ],
 
   resolve: {
-    extensions: ['.tsx', '.ts', '.js'],
+    extensions: ['.tsx', '.ts', '.js']
   },
 
   output: {
