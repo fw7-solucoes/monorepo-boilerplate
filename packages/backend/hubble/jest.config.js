@@ -18,6 +18,7 @@ module.exports = {
   modulePathIgnorePatterns: ['<rootDir>/__tests__/helpers'],
 
   collectCoverageFrom: [
+    '<rootDir>/src/**/*.ts',
     '!<rootDir>/src/index.ts',
     '!<rootDir>/src/app.ts',
     '!<rootDir>/src/config/*',
