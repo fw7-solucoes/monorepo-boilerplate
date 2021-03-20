@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { Home } from '~/components/Home'
+
 export function Index() {
-  return <h1>Hubble Analytics</h1>
+  return <Home />
 }

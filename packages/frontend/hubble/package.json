@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "webpack serve --config webpack.config.js",
-    "lint": "eslint src --ext .ts"
+    "lint": "eslint src --ext .ts",
+    "test": "jest"
   }
 }
