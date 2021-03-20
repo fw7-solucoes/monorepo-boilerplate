@@ -1,0 +1,12 @@
+{
+  "name": "@fw7/backend_hubble",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint src --ext .ts"
+  },
+  "dependencies": {
+    "helmet": "^4.4.1"
+  }
+}
