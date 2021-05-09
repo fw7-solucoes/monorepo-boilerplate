@@ -1,80 +1,44 @@
-# Hubble Analytics
+<p align="center">
+  <img alt="Mono Repo" width="120" title="Mono Repo" src=".github/icon.png" />
+</p>
 
-Aqui irá conter as informações relacionadas ao **Hubblezada**.
+<h1 align="center">Mono Repo Boilerplate</h1>
 
----
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Licença</a>
+</p>
 
-## Base de dados
+<p align="center">
+ <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=8257E5&labelColor=000000" alt="PRs welcome!" />
 
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000">
+</p>
 
-### sprint_statistics
-```json
-{
-  "week": "27-28",
-  "tasksQuantityByType": {
-    "total": 10,
-    "feats": 5,
-    "chores": 3,
-    "fixes": 2
-  },
-  "monsterDev": {
-    "reference": "devs",
-    "column": "_id"
-  },
-  "bigCatDev": {
-    "reference": "devs",
-    "column": "_id"
-  },
-  "cycleTime": {
-    "milliseconds": 234524556,
-    "readable": "2D5H"
-  },
-  "leadTime": {
-    "milliseconds": 734524556,
-    "readable": "3D2H"
-  }
-}
-```
+<br>
 
----
+## 🚀 Tecnologias
 
-### devs
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-```json
-{
-  "name": "Marcel Luiz Zanluca",
-  "birthday": "1993-10-14",
-  "hiringDate": "2006-11-15",
-  "tasksQuantityByType": {
-    "total": 10,
-    "feats": 5,
-    "chores": 3,
-    "fixes": 2
-  },
-  "bigCatQuantity": 4,
-  "monsterQuantity": 3
-}
-```
+- [GraphQL](https://graphql.org/)
+- [Node.js](https://nodejs.org/en/)
+- [Typescript](https://www.typescriptlang.org/)
+- [React](https://pt-br.reactjs.org/)
+- [Styled Components](https://styled-components.com/)
+- [Husky](https://github.com/typicode/husky)
+- [Eslint](https://eslint.org/)
+- [Jest - Testes automatizados](https://jestjs.io/pt-BR/)
+
+## 💻 Projeto
+
+Esse projeto se trata de um modelo para construção de aplicações _Mono Repo_ (Vários projetos dentro de um único repositório).
+
+## 📝 Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
 ---
 
-### global statistics
-
-```json
-{
-  "tasksQuantityByType": {
-    "total": 10,
-    "feats": 5,
-    "chores": 3,
-    "fixes": 2
-  },
-  "cycleTime": {
-    "milliseconds": 234524556,
-    "readable": "2D5H"
-  },
-  "leadTime": {
-    "milliseconds": 734524556,
-    "readable": "3D2H"
-  }
-}
-```
+Feito pela equipe Galáctica 👽
